@@ -35,10 +35,6 @@ class Pack:
         print("All dogs perform together:")
         self.perform_trick("all")
 
-    def __str__(self):
-        return "Pack with {len(self.members)} dogs: {[dog.getName() for dog in self.members]}"
-
-
 dog1 = Dog("Spot")
 dog2 = Dog("Daisy")
 dog3 = Dog("Peanut")
