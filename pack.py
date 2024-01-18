@@ -2,8 +2,8 @@ from dog import Dog
 
 
 class Pack:
-    def __init__(self, dog: Dog):
-        self.members = [dog]
+    def __init__(self, leader):
+        self.members = [leader]
         self.leader_index = 0
 
     def get_leader_name(self):
